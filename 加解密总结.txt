@@ -1,0 +1,18 @@
+
+用到的库 ：crypto 等
+
+经典加密：caser.py  凯撒加密 阿特巴希密码（rot13）
+	  fence.py 栅栏加密
+			
+用到的脚本：RSA.py  RSA3.py - 方法： 扩展欧几里德求模逆
+
+RSA 大数分解：可用http://factordb.com/ 求解 或者 yafu工具。
+
+RSA生成证书 pem文件相关： 
+	脚本 rsatool.py （由p,q可得pem文件） 。
+	脚本 decrypt_RSA （ 由私钥pem和密文，解密得铭文）。	
+
+	  
+二维码： zbarlight 脚本 bar.py
+	可读取二维码文件
+  

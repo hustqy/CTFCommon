@@ -31,8 +31,6 @@ def rsa_key():#生成密钥的函数
     print m3
 
 
-
-
 def egcd(a, b):
     if a == 0:
       return (b, 0, 1)
